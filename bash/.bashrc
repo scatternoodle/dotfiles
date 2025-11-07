@@ -1,28 +1,36 @@
-#
 # ~/.bashrc
-#
 
+# -----------------------------------------------------------------------------
 # *** INITITAL SETUP ***
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
 PS1='[\u@\h \W]\$ '
 
+# -----------------------------------------------------------------------------
 # *** SESSION VARIABLES ***
+
 export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
+# Opt out of Microsoft .NET telemetry
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+# -----------------------------------------------------------------------------
 # *** ALIASES ***
+
+# General navigation
+alias -- '-'='cd -'
+alias '..'='cd ..'
+alias h="cd $XDG_CONFIG_HOME"
+
 # make it so that ssh-agent is always started with X11
 alias startx="ssh-agent startx"
+
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
-alias vim='nvim'
+alias v='nvim'
 
-# Add my custom scripts to path
-# scripts_dir="$HOME/scripts
-# if [ -d "$scripts_dir" ]; then
-    # for file in "$scripts_dir"/*.sh; do
-	# [ -r "$file" ] && PATH="$file:$PATH";
-    # done
-# fi
+# lsd - better ls
+alias l="lsd -l"
+alias la="lsd -al"
