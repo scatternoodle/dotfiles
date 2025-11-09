@@ -1,0 +1,34 @@
+compatdatapath = "/home/flinty/.steam/debian-installation/steamapps/compatdata"
+
+[appconfigs]
+
+# Farming Simulator 22
+[appconfigs.1248130]
+savepath = "Documents/My Games/FarmingSimulator2022"
+modpath = "Documents/My Games/FarmingSimulator2022/mods"
+
+# Farming Simulator 19
+[appconfigs.787860]
+savepath = "Documents/My Games/FarmingSimulator2019"
+modpath = "Documents/My Games/FarmingSimulator2019/mods"
+
+# Chef Life: A Restaurant Simulator
+[appconfigs.1122340]
+savepath = "AppData/LocalLow/Cyanide/Chef Life _ A Restaurant Simulator/saves"
+# No official mod support
+
+# Stardew Valley
+[appconfigs.413150]
+compatpath = "/home/elliot/.config/StardewValley"
+savepath = "Saves"
+modpathabs = "/home/elliot/.steam/steam/steamapps/common/Stardew Valley/Mods"
+
+# Software Inc
+[appconfigs.362620]
+compatpath = "/home/elliot/.steam/debian-installation/steamapps/common/Software Inc"
+savepath = "Saves"
+modpath = "Mods"
+
+# Wurm Unlimited
+[appconfigs.366220]
+compatpath = "/home/elliot/.steam/debian-installation/steamapps/common/Wurm Unlimited"
