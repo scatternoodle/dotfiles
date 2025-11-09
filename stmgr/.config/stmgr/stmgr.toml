@@ -1,4 +1,4 @@
-compatdatapath = "/home/flinty/.steam/debian-installation/steamapps/compatdata"
+compatdatapath = "/home/flinty/.steam/steam/steamapps/compatdata"
 
 [appconfigs]
 
@@ -19,16 +19,21 @@ savepath = "AppData/LocalLow/Cyanide/Chef Life _ A Restaurant Simulator/saves"
 
 # Stardew Valley
 [appconfigs.413150]
-compatpath = "/home/elliot/.config/StardewValley"
+compatpath = "/home/flinty/.config/StardewValley"
 savepath = "Saves"
-modpathabs = "/home/elliot/.steam/steam/steamapps/common/Stardew Valley/Mods"
+modpathabs = "/home/flinty/.steam/steamapps/common/Stardew Valley/Mods"
 
 # Software Inc
 [appconfigs.362620]
-compatpath = "/home/elliot/.steam/debian-installation/steamapps/common/Software Inc"
+compatpath = "/home/flinty/.steam/steamapps/common/Software Inc"
 savepath = "Saves"
 modpath = "Mods"
 
 # Wurm Unlimited
 [appconfigs.366220]
-compatpath = "/home/elliot/.steam/debian-installation/steamapps/common/Wurm Unlimited"
+compatpath = "/home/flinty/.steam/steamapps/common/Wurm Unlimited"
+
+# Total War: ROME II - Emperor Edition
+[appconfigs.214950]
+savepath = "AppData/Roaming/The Creative Assembly/Rome2"
+modpathabs = "/home/flinty/.steam/steam/steamapps/common/Total War Rome II/data"
