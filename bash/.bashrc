@@ -16,12 +16,17 @@ export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 # -----------------------------------------------------------------------------
+# *** PATH ADDITIONS ***
+
+export PATH="$HOME/go/bin:$PATH"
+
+# -----------------------------------------------------------------------------
 # *** ALIASES ***
 
 # General navigation
 alias -- '-'='cd -'
 alias '..'='cd ..'
-alias h="cd $XDG_CONFIG_HOME"
+alias h="cd $HOME"
 
 # make it so that ssh-agent is always started with X11
 alias startx="ssh-agent startx"
