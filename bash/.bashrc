@@ -19,6 +19,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 # *** PATH ADDITIONS ***
 
 export PATH="$HOME/go/bin:$PATH"
+export PATH="/opt:$PATH"
 
 # -----------------------------------------------------------------------------
 # *** ALIASES ***
