@@ -73,3 +73,10 @@ alias v='nvim'
 alias l="lsd -l"
 alias la="lsd -al"
 alias lt="lsd -l --tree"
+
+# Clipboard management
+alias cb="xclip -selection clipboard"
+
+# -----------------------------------------------------------------------------
+# *** EVALS ***
+eval "$(zoxide init bash)"
