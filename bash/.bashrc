@@ -77,6 +77,12 @@ alias lt="lsd -l --tree"
 # Clipboard management
 alias cb="xclip -selection clipboard"
 
+# Tmux
+alias tma="tmux attach"
+function tmn() {
+	tmux new -s "$1"
+}
+
 # -----------------------------------------------------------------------------
 # *** EVALS ***
 eval "$(zoxide init bash)"
