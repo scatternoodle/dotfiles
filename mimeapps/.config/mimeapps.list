@@ -1,0 +1,10 @@
+[Default Applications]
+application/x-terminal-emulator=kitty.desktop
+application/xhtml+xml=zen_browser-zen_custom.desktop
+text/html=zen_browser-zen_custom.desktop
+text/plain=nvim.desktop
+text/csv=libreoffice-calc.desktop
+x-scheme-handler/chrome=zen_browser-zen_custom.desktop
+x-scheme-handler/http=zen_browser-zen_custom.desktop
+x-scheme-handler/https=zen_browser-zen_custom.desktop
+x-scheme-handler/terminal=kitty.desktop
