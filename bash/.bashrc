@@ -42,6 +42,7 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 export PATH="$HOME/go/bin:$PATH"
 export PATH="/opt:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # -----------------------------------------------------------------------------
 # *** SOURCE FROM FILES ***
@@ -73,6 +74,9 @@ alias v='nvim'
 alias l="lsd -l"
 alias la="lsd -al"
 alias lt="lsd -l --tree"
+
+# Yazi
+alias y="yazi"
 
 # Clipboard management
 alias cb="xclip -selection clipboard"
