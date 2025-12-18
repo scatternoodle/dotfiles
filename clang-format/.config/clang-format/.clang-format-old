@@ -1,0 +1,12 @@
+# ~/.config/clang-format/.clang-format - My personal default clang-format style
+# Managed by GNU Stow
+
+BasedOnStyle: LLVM
+IndentWidth: 8
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterCaseLabel: true
+ColumnLimit: 0
+AlignConsecutiveDeclarations: Consecutive
+AlignAfterOpenBracket: Align
