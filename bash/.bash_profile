@@ -10,6 +10,8 @@ export XDG_CACHE_HOME="$HOME/.cache"
 
 # Custom user scripts
 export PATH="$XDG_CONFIG_HOME/scripts:$PATH"
+export PATH="$XDG_CONFIG_HOME/user-scripts:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt:$PATH"
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
