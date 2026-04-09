@@ -2,38 +2,48 @@ compatdatapath = "/home/flinty/.steam/steam/steamapps/compatdata"
 
 [appconfigs]
 
+# Farming Simulator 25
+[appconfigs.2300320]
+name = "Farming Simulator 2025"
+modpath = "pfx/drive_c/users/steamuser/Documents/My Games/FarmingSimulator2025/mods"
+
 # Farming Simulator 22
 [appconfigs.1248130]
-savepath = "Documents/My Games/FarmingSimulator2022"
-modpath = "Documents/My Games/FarmingSimulator2022/mods"
+name = "Farming Simulator 2022"
+modpath = "mods"
 
 # Farming Simulator 19
 [appconfigs.787860]
-savepath = "Documents/My Games/FarmingSimulator2019"
-modpath = "Documents/My Games/FarmingSimulator2019/mods"
+name = "Farming Simulator 2019"
+modpath = "mods"
 
 # Chef Life: A Restaurant Simulator
 [appconfigs.1122340]
+name = "Chef Life: A Restaurant Simulator"
 savepath = "AppData/LocalLow/Cyanide/Chef Life _ A Restaurant Simulator/saves"
 # No official mod support
 
 # Stardew Valley
 [appconfigs.413150]
+name = "Stardew Valley"
 compatpath = "/home/flinty/.config/StardewValley"
 savepath = "Saves"
 modpathabs = "/home/flinty/.steam/steamapps/common/Stardew Valley/Mods"
 
 # Software Inc
 [appconfigs.362620]
+name = "Software Inc"
 compatpath = "/home/flinty/.steam/steamapps/common/Software Inc"
 savepath = "Saves"
 modpath = "Mods"
 
 # Wurm Unlimited
 [appconfigs.366220]
+name = "Wurm Unlimited"
 compatpath = "/home/flinty/.steam/steamapps/common/Wurm Unlimited"
 
 # Total War: ROME II - Emperor Edition
 [appconfigs.214950]
+name = "Total War: Rome II - Emperor Edition"
 savepath = "AppData/Roaming/The Creative Assembly/Rome2"
 modpathabs = "/home/flinty/.steam/steam/steamapps/common/Total War Rome II/data"
